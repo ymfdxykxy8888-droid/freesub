@@ -5,42 +5,40 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 02 - xiaohe
   type: ss
-  server: 139.84.166.47
-  port: 8388
+  server: 172.105.39.124
+  port: 7002
   cipher: aes-256-gcm
-  password: GEdoeeqLZtkJRgSa
+  password: RexnBgU7EV5ADxG
   udp: true
-- name: 🇮🇳 印度 (India) 03 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+- name: 🇮🇳 印度 (India) 02 - xiaohe
+  type: vless
+  server: 104.18.3.67
+  port: 443
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: in.520782.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /cdn/packages/runtime-core.tar.gz
     headers:
-      Host: ''
+      Host: in.520782.xyz
+- name: 🇮🇳 印度 (India) 03 - xiaohe
+  type: vless
+  server: 104.18.2.67
+  port: 443
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: in.520782.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: in.520782.xyz
 proxy-groups:
 - name: PROXIES
   type: select

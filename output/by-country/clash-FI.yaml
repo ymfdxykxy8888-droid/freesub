@@ -6,9 +6,9 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: 151.101.56.6
+  server: k2.cloud--vpn.site
   port: 443
-  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
+  uuid: f54c98ce-ac44-4984-db61-ccca1fdbbf72
   udp: true
   tls: true
   skip-cert-verify: true
