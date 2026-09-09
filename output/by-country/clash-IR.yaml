@@ -4,30 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇭 PH 01 - xiaohe
+- name: 🇮🇷 IR 01 - xiaohe
   type: vless
-  server: 149.104.109.17
-  port: 2087
-  uuid: 9ed3dcb3-b71a-4ae1-8210-95e33615d7e6
+  server: ir.dl.stormrp.ir
+  port: 443
+  uuid: 2592b640-5060-4cc8-9ad7-bd2834a2d45b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ir.dl.stormrp.ir
   network: ws
   ws-opts:
-    path: /04461917b179
+    path: /api-mp4
     headers:
-      Host: 149.104.109.17
+      Host: ir.dl.stormrp.ir
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇭 PH 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇭 PH 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 rules:
 - MATCH,PROXIES
