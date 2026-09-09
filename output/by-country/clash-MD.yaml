@@ -4,30 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+- name: 🇲🇩 MD 01 - xiaohe
   type: vless
-  server: 162.159.48.32
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.17.169.13
+  port: 2053
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: inDeX.HaRMONiCA01.WORkers.DeV
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /axch1mttbxz2k55y01
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: inDeX.HaRMONiCA01.WORkers.DeV
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇲🇩 MD 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇲🇩 MD 01 - xiaohe
 rules:
 - MATCH,PROXIES
