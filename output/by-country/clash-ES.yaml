@@ -6,10 +6,10 @@ log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - xiaohe
   type: ss
-  server: 140.174.184.5
+  server: 108.181.121.226
   port: 8388
   cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
+  password: WSyL4XTwNsdv
   udp: true
 - name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
   type: ss
@@ -20,10 +20,10 @@ proxies:
   udp: true
 - name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
   type: ss
-  server: 64.177.32.29
+  server: 140.174.184.5
   port: 8388
-  cipher: aes-256-gcm
-  password: wBYiDjDDyFqcBnNl
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
   udp: true
 - name: 🇪🇸 西班牙 (Spain) 04 - xiaohe
   type: vless
@@ -36,7 +36,21 @@ proxies:
   reality-opts:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇪🇸 西班牙 (Spain) 05 - xiaohe
+  type: ss
+  server: 64.177.32.29
+  port: 8388
+  cipher: aes-256-gcm
+  password: wBYiDjDDyFqcBnNl
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
+  type: ss
+  server: 140.174.184.5
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -46,6 +60,8 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - xiaohe
   - 🇪🇸 西班牙 (Spain) 03 - xiaohe
   - 🇪🇸 西班牙 (Spain) 04 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 05 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +71,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - xiaohe
   - 🇪🇸 西班牙 (Spain) 03 - xiaohe
   - 🇪🇸 西班牙 (Spain) 04 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 05 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
 rules:
 - MATCH,PROXIES
