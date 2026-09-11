@@ -15,24 +15,26 @@ proxies:
   servername: 195-162-69-203.sslip.io
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: e691b034-dfc9-4f22-80aa-6d4f6404a4df
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  type: vless
   server: app.life-pro.ir
   port: 8082
   uuid: 79f98593-6a21-4783-a425-3d5609a79df1
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  type: vless
+  server: sinavm.soft10.ir
+  port: 443
+  uuid: 69768555-bf07-4127-8ce5-eed7a0d0baba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sinavm.soft10.ir
+  network: ws
+  ws-opts:
+    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
+    headers:
+      Host: sinavm.soft10.ir
 proxy-groups:
 - name: PROXIES
   type: select
