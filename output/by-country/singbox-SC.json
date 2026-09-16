@@ -6,16 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - xiaohe",
-        "🇧🇬 BG 02 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe",
+        "🇸🇨 SC 02 - xiaohe",
+        "🇸🇨 SC 03 - xiaohe",
+        "🇸🇨 SC 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - xiaohe",
-        "🇧🇬 BG 02 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe",
+        "🇸🇨 SC 02 - xiaohe",
+        "🇸🇨 SC 03 - xiaohe",
+        "🇸🇨 SC 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 IE 01 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   type: ss
-  server: 94.245.88.26
-  port: 443
+  server: 139.28.240.68
+  port: 1080
   cipher: chacha20-ietf-poly1305
-  password: p20Y6AFEN1pS7LJX
+  password: rSeYcig_XBy8q3k33NpK3A
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 IE 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 IE 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 rules:
 - MATCH,PROXIES
