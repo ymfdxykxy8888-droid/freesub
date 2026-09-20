@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 45.130.125.73
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
+  server: 129.151.64.169
+  port: 31867
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: web-app-aug8yr.app-f1qsy1.workers.dev
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /api/ws
+    path: /files
     headers:
-      Host: web-app-aug8yr.app-f1qsy1.workers.dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
