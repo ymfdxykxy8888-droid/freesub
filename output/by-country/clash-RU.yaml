@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 5.101.114.44
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /collection/directory?ed=2560
+    path: /cdn/v3/live
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 31.59.121.156
+  server: 193.181.216.117
   port: 2053
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: vless
-  server: 5.104.107.80
-  port: 2053
+  server: 62.60.152.31
+  port: 443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
@@ -43,7 +43,7 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /act/clip/directory?ed=2560fp=chrome
+    path: '%2Fgo.php%3Fed%3D2560'
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
