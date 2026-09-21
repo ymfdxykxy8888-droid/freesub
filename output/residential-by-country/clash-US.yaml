@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 AM 01 - xiaohe
+- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   type: vless
-  server: 103.251.167.112
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.67.187.219
+  port: 8880
+  uuid: d6c595c9-bff4-4510-893a-dfa3c87fa0cd
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /library/lang?ed=2560fp=chrome
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: lucky-cell-d20c.78-107.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 AM 01 - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 AM 01 - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
