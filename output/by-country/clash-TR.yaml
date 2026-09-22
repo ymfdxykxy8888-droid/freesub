@@ -4,31 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇸 IS 01 - xiaohe
-  type: vless
-  server: 151.243.181.99
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  type: vmess
+  server: 78.135.77.91
+  port: 25020
+  uuid: nitro_teeam@
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
-      Host: shuma.ccwu.cc
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇸 IS 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇸 IS 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 rules:
 - MATCH,PROXIES
