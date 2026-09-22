@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇿🇦 ZA 01 - xiaohe
+- name: 🇮🇷 IR 01 - xiaohe
   type: ss
-  server: 4.221.224.246
-  port: 443
+  server: p1tun3.greewebservices.ir
+  port: 2070
   cipher: chacha20-ietf-poly1305
-  password: 3aN9XUwhvq1ujlsO
+  password: ao5znrhEwVqoJy-l7AVvgw
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇿🇦 ZA 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇿🇦 ZA 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 rules:
 - MATCH,PROXIES
