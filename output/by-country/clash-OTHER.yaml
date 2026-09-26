@@ -6,33 +6,6 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   type: vless
-  server: 162.159.24.131
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  type: vless
-  server: 172.67.176.60
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-M19.SoUtH-afRIcA.CCwu.Cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 3-m19.south-afriCa.Ccwu.Cc
-- name: 🌐 其他地区 (Other) 03 - xiaohe
-  type: vless
   server: 104.21.90.161
   port: 443
   uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
@@ -45,87 +18,75 @@ proxies:
     path: /CjBjB9sn5pCvaSwScc
     headers:
       Host: 4-m19.pERU-LIne.CCwu.CC
-- name: 🌐 其他地区 (Other) 04 - xiaohe
+- name: 🌐 其他地区 (Other) 02 - xiaohe
   type: vless
-  server: 104.21.63.171
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m19.sOUTh-aFrica-CHAnNEl.CCWu.CC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 7-M19.SoutH-afRIcA-chaNnEl.CCwu.cc
-- name: 🌐 其他地区 (Other) 05 - xiaohe
-  type: vless
-  server: 172.64.32.103
-  port: 2052
+  server: 188.114.97.6
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 03 - xiaohe
+  type: vless
+  server: 172.67.210.96
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 0-m19.SOUth-AFricA-LINE.ccwu.Cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 0-m19.SOUtH-afRIca-lInE.ccWu.Cc
+- name: 🌐 其他地区 (Other) 04 - xiaohe
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 05 - xiaohe
+  type: vless
+  server: 108.162.198.178
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 06 - xiaohe
   type: vless
-  server: 172.64.229.170
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 07 - xiaohe
-  type: vless
-  server: 172.64.154.8
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 08 - xiaohe
-  type: vless
-  server: 104.21.80.194
+  server: 172.67.206.48
   port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 9-M19.sOUTH-AFRIcA-LINK.CCWu.cC
+  servername: 1-M16.AyUtTHAYA2030.KdNS.fR
   network: ws
   ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
-      Host: 9-m19.South-AfrIcA-liNK.CcWU.CC
-- name: 🌐 其他地区 (Other) 09 - xiaohe
-  type: vless
-  server: 172.64.32.108
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 10 - xiaohe
+      Host: 1-M16.AyUtTHAYA2030.KdNS.fR
+- name: 🌐 其他地区 (Other) 07 - xiaohe
   type: vless
   server: 172.67.199.80
   port: 443
@@ -139,10 +100,51 @@ proxies:
     path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
       Host: 9-M13.18f6A5D8-1d18-4649-9d3D-97C46E3aA3Ec.kdNS.fR
+- name: 🌐 其他地区 (Other) 08 - xiaohe
+  type: vless
+  server: 104.21.94.41
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-m20.r00r.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 3-m20.r00r.ccwu.cc
+- name: 🌐 其他地区 (Other) 09 - xiaohe
+  type: vless
+  server: 104.21.80.194
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-M19.sOUTH-AFRIcA-LINK.CCWu.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 9-m19.South-AfrIcA-liNK.CcWU.CC
+- name: 🌐 其他地区 (Other) 10 - xiaohe
+  type: vless
+  server: 172.64.229.170
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 11 - xiaohe
   type: vless
-  server: 172.64.229.2
-  port: 80
+  server: 172.64.154.8
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -154,34 +156,34 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 12 - xiaohe
   type: vless
-  server: 162.159.39.218
-  port: 80
+  server: 108.162.198.178
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 13 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 104.21.80.252
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: 1-M19.ALbania.CcWu.CC
   network: ws
   ws-opts:
-    path: /vws/
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: bab-6.site
+      Host: 1-M19.alBAniA.Ccwu.CC
 - name: 🌐 其他地区 (Other) 14 - xiaohe
   type: vless
-  server: 104.18.34.14
+  server: 188.114.97.6
   port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -189,12 +191,26 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
+    path: /?ed=2560
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 15 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 172.67.210.53
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 0-M13.38c4495B-7E6D-4AAa-8a0A-3139ff704e1F.KDns.Fr
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 0-M13.38c4495b-7E6d-4aAa-8A0a-3139FF704E1F.kDNs.fR
+- name: 🌐 其他地区 (Other) 16 - xiaohe
+  type: vless
+  server: 104.18.46.46
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -202,189 +218,24 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 16 - xiaohe
-  type: vless
-  server: 104.18.47.113
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 17 - xiaohe
   type: vless
-  server: 108.162.198.178
-  port: 2082
+  server: 162.159.48.32
+  port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 18 - xiaohe
   type: vless
-  server: 172.67.169.99
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 5-M16.PHukeT2035.Kdns.FR
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 5-m16.PHukeT2035.KDnS.FR
-- name: 🌐 其他地区 (Other) 19 - xiaohe
-  type: vless
-  server: 172.67.220.153
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-M16.ChIAnG-MAi2031.kdns.Fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
-- name: 🌐 其他地区 (Other) 20 - xiaohe
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 21 - xiaohe
-  type: vless
-  server: 104.21.93.99
-  port: 2083
-  uuid: 766f6c65-0000-4000-8000-787000000002
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: volexproxy.karjadidd.workers.dev
-  network: ws
-  ws-opts:
-    path: /volexprosy
-    headers:
-      Host: volexproxy.karjadidd.workers.dev
-- name: 🌐 其他地区 (Other) 22 - xiaohe
-  type: vless
-  server: 172.67.208.166
-  port: 2083
-  uuid: 766f6c65-0000-4000-8000-787000000002
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: volexproxy.karjadidd.workers.dev
-  network: ws
-  ws-opts:
-    path: /volexprosy
-    headers:
-      Host: volexproxy.karjadidd.workers.dev
-- name: 🌐 其他地区 (Other) 23 - xiaohe
-  type: vless
-  server: 172.67.173.191
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-m20.e00e.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 3-m20.e00e.ccwu.cc
-- name: 🌐 其他地区 (Other) 24 - xiaohe
-  type: vless
-  server: 104.21.45.133
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-backend-infra-m20.g000g.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 3-backend-infra-m20.g000g.ccwu.cc
-- name: 🌐 其他地区 (Other) 25 - xiaohe
-  type: vless
-  server: 104.21.62.234
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 5-M19.sudaN-parK.ccwU.cC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 5-M19.sUdaN-PArK.ccWu.CC
-- name: 🌐 其他地区 (Other) 26 - xiaohe
-  type: vless
-  server: 172.64.154.8
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 27 - xiaohe
-  type: vless
-  server: 172.67.156.222
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-m16.ChIAn-mAI-6.kDnS.Fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 3-m16.ChIAn-Mai-6.kdNs.Fr
-- name: 🌐 其他地区 (Other) 28 - xiaohe
-  type: vless
-  server: 162.159.48.32
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 29 - xiaohe
-  type: vless
   server: 108.162.198.178
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -396,347 +247,9 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 30 - xiaohe
-  type: vless
-  server: 172.64.154.8
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 31 - xiaohe
-  type: vless
-  server: 104.18.46.46
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 32 - xiaohe
-  type: vless
-  server: 104.21.13.178
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9-m16.ChiAN-Mai-6.KdNS.Fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 9-m16.ChIaN-mAI-6.kDnS.fR
-- name: 🌐 其他地区 (Other) 33 - xiaohe
-  type: vless
-  server: 172.67.148.211
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-M19.sOutH-AfRiCA-CHANNEL.ccwU.cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 3-M19.SOUth-aFriCA-CHaNnel.CCWu.Cc
-- name: 🌐 其他地区 (Other) 34 - xiaohe
-  type: vless
-  server: 104.21.21.151
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4-m13.18f6A5d8-1d18-4649-9D3D-97C46E3aA3eC.KDNS.fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 4-m13.18F6a5D8-1D18-4649-9D3d-97C46e3aa3ec.kDNs.Fr
-- name: 🌐 其他地区 (Other) 35 - xiaohe
-  type: vless
-  server: 172.64.32.103
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 36 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 37 - xiaohe
+- name: 🌐 其他地区 (Other) 19 - xiaohe
   type: vless
   server: 172.64.52.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 38 - xiaohe
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 39 - xiaohe
-  type: vless
-  server: 162.159.43.187
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 40 - xiaohe
-  type: vless
-  server: cf-socks.caoyuwu.eu.org
-  port: 443
-  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf-socks.caoyuwu.eu.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf-socks.caoyuwu.eu.org
-- name: 🌐 其他地区 (Other) 41 - xiaohe
-  type: vless
-  server: 104.21.22.82
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 5-M19.MjU.cCwu.cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 5-M19.mju.Ccwu.cC
-- name: 🌐 其他地区 (Other) 42 - xiaohe
-  type: vless
-  server: 172.67.200.222
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-m13.4b49F101-6328-41c6-953d-00CeB79b58ac.KDnS.Fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 2-M13.4B49f101-6328-41C6-953d-00Ceb79B58aC.KDnS.FR
-- name: 🌐 其他地区 (Other) 43 - xiaohe
-  type: vless
-  server: 104.18.47.113
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 44 - xiaohe
-  type: vless
-  server: 104.18.46.234
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 45 - xiaohe
-  type: vless
-  server: 104.21.31.110
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8-M19.SOUth-aFrIcA.cCWU.cC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 8-m19.SouTh-aFRIca.cCWU.Cc
-- name: 🌐 其他地区 (Other) 46 - xiaohe
-  type: vless
-  server: 172.64.32.103
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 47 - xiaohe
-  type: vless
-  server: 104.21.53.73
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-m19.SOUTh-AFRicA-liNe.ccWU.cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 1-M19.SOuTH-AFRiCa-liNE.CcWu.Cc
-- name: 🌐 其他地区 (Other) 48 - xiaohe
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/103.101.153.32:443
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 49 - xiaohe
-  type: vless
-  server: 172.64.229.2
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 50 - xiaohe
-  type: vless
-  server: 172.64.42.85
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 51 - xiaohe
-  type: vless
-  server: 172.67.137.154
-  port: 443
-  uuid: 49d598ee-4dfc-4001-95ca-99a5b6002e3c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
-- name: 🌐 其他地区 (Other) 52 - xiaohe
-  type: vless
-  server: 172.64.53.55
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 53 - xiaohe
-  type: vless
-  server: 172.67.153.78
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-M19.sOUth-aFrica-lINk.CCWu.Cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 2-M19.SOuTh-AFRIca-linK.ccWU.cC
-- name: 🌐 其他地区 (Other) 54 - xiaohe
-  type: vless
-  server: 104.18.46.46
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 55 - xiaohe
-  type: vless
-  server: 104.18.47.113
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -747,20 +260,21 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 56 - xiaohe
+- name: 🌐 其他地区 (Other) 20 - xiaohe
   type: vless
-  server: 172.64.154.8
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.21.63.171
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 7-m19.sOUTh-aFrica-CHAnNEl.CCWu.CC
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 57 - xiaohe
+      Host: 7-M19.SoutH-afRIcA-chaNnEl.CCwu.cc
+- name: 🌐 其他地区 (Other) 21 - xiaohe
   type: vless
   server: 104.21.5.103
   port: 443
@@ -774,48 +288,25 @@ proxies:
     path: /CjBjB9sn5pCvaSwScc
     headers:
       Host: 3-M19.loP.ccWU.cC
-- name: 🌐 其他地区 (Other) 58 - xiaohe
-  type: vless
-  server: 104.18.46.234
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: 🌐 其他地区 (Other) 22 - xiaohe
+  type: vmess
+  server: 104.21.57.84
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
   network: ws
   ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
+    path: /lMnsZUN4/
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 59 - xiaohe
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 23 - xiaohe
   type: vless
-  server: 104.18.46.46
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 60 - xiaohe
-  type: vless
-  server: 162.159.0.53
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 61 - xiaohe
-  type: vless
-  server: 172.64.32.108
+  server: 162.159.39.218
   port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -826,104 +317,37 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 62 - xiaohe
+- name: 🌐 其他地区 (Other) 24 - xiaohe
   type: vless
-  server: 104.27.52.69
+  server: 172.67.200.222
   port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: icy-pine-5efc.aoigjojowfie123.workers.dev
+  servername: 2-m13.4b49F101-6328-41c6-953d-00CeB79b58ac.KDnS.Fr
   network: ws
   ws-opts:
-    path: /sync
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: icy-pine-5efc.aoigjojowfie123.workers.dev
-- name: 🌐 其他地区 (Other) 63 - xiaohe
+      Host: 2-M13.4B49f101-6328-41C6-953d-00Ceb79B58aC.KDnS.FR
+- name: 🌐 其他地区 (Other) 25 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ne4d3.thir.mn8.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 64 - xiaohe
-  type: vless
-  server: 104.21.46.51
+  server: 172.67.179.82
   port: 443
   uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 4-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
+  servername: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
   network: ws
   ws-opts:
     path: /8qMLgNapWf6SBxo8fhQlVPYO
     headers:
-      Host: 4-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
-- name: 🌐 其他地区 (Other) 65 - xiaohe
+      Host: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+- name: 🌐 其他地区 (Other) 26 - xiaohe
   type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 66 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 67 - xiaohe
-  type: vless
-  server: 172.67.195.150
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 1-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
-- name: 🌐 其他地区 (Other) 68 - xiaohe
-  type: vless
-  server: 104.18.34.14
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 69 - xiaohe
-  type: vless
-  server: 104.18.39.218
+  server: 172.64.154.8
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -934,62 +358,61 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 70 - xiaohe
+- name: 🌐 其他地区 (Other) 27 - xiaohe
   type: vless
-  server: 104.18.15.103
-  port: 443
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server9.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /imnotarealherox
-    headers:
-      Host: server9.9966338.xyz
-- name: 🌐 其他地区 (Other) 71 - xiaohe
-  type: vless
-  server: 172.64.42.85
-  port: 2095
+  server: 162.159.24.131
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 72 - xiaohe
+- name: 🌐 其他地区 (Other) 28 - xiaohe
   type: vless
-  server: 172.67.155.189
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  server: 104.18.34.14
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 8-M13.1B9390A5-6209-45bD-ba0E-057EBb2641C3.Kdns.fr
   network: ws
   ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
+    path: /?ed=2560security=tls
     headers:
-      Host: 8-M13.1B9390a5-6209-45Bd-ba0E-057EBb2641c3.KDns.Fr
-- name: 🌐 其他地区 (Other) 73 - xiaohe
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 29 - xiaohe
   type: vless
-  server: 104.21.12.3
+  server: 104.21.39.137
   port: 443
   uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6-m19.MexiCO-PoRt.CcWU.Cc
+  servername: 5-M19.ikL.Ccwu.cc
   network: ws
   ws-opts:
     path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: 6-m19.mExiCo-pOrT.cCwu.cc
-- name: 🌐 其他地区 (Other) 74 - xiaohe
+      Host: 5-M19.IKL.cCWU.cc
+- name: 🌐 其他地区 (Other) 30 - xiaohe
+  type: vless
+  server: 172.67.176.60
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-M19.SoUtH-afRIcA.CCwu.Cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 3-m19.south-afriCa.Ccwu.Cc
+- name: 🌐 其他地区 (Other) 31 - xiaohe
   type: vless
   server: 104.21.41.158
   port: 443
@@ -1003,23 +426,174 @@ proxies:
     path: /CjBjB9sn5pCvaSwScc
     headers:
       Host: 8-m19.nortH-koREA-parK.KDns.FR
-- name: 🌐 其他地区 (Other) 75 - xiaohe
+- name: 🌐 其他地区 (Other) 32 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  server: 104.21.22.82
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
+  servername: 5-M19.MjU.cCwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 76 - xiaohe
+      Host: 5-M19.mju.Ccwu.cC
+- name: 🌐 其他地区 (Other) 33 - xiaohe
   type: vless
-  server: 172.64.229.170
+  server: 104.21.53.73
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-m19.SOUTh-AFRicA-liNe.ccWU.cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 1-M19.SOuTH-AFRiCa-liNE.CcWu.Cc
+- name: 🌐 其他地区 (Other) 34 - xiaohe
+  type: vless
+  server: hikvision-plus.com
+  port: 2052
+  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 35 - xiaohe
+  type: vless
+  server: 162.159.43.187
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 36 - xiaohe
+  type: vless
+  server: 172.67.212.14
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m19.SoUTh-aFRiCA-OnlInE.cCWU.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 4-m19.sOUth-afRiCA-onLIne.cCwu.Cc
+- name: 🌐 其他地区 (Other) 37 - xiaohe
+  type: vless
+  server: 172.67.223.223
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 8-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 8-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
+- name: 🌐 其他地区 (Other) 38 - xiaohe
+  type: vless
+  server: 104.21.91.76
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7-M19.South-aFRIca-onliNE.CCwu.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 7-M19.sOuTH-afRiCa-OnlIne.ccwU.cC
+- name: 🌐 其他地区 (Other) 39 - xiaohe
+  type: vless
+  server: 104.18.46.234
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 40 - xiaohe
+  type: vless
+  server: 104.21.91.102
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-M16.aYUtTHAya2031.kdnS.fR
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 4-M16.aYUtTHAya2031.kdnS.fR
+- name: 🌐 其他地区 (Other) 41 - xiaohe
+  type: vless
+  server: 172.67.202.114
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-m19.PeRu-liNe.CcWu.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 1-M19.peru-line.CcwU.cC
+- name: 🌐 其他地区 (Other) 42 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws?ed#
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 43 - xiaohe
+  type: vless
+  server: 172.67.148.211
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-M19.sOutH-AfRiCA-CHANNEL.ccwU.cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 3-M19.SOUth-aFriCA-CHaNnel.CCWu.Cc
+- name: 🌐 其他地区 (Other) 44 - xiaohe
+  type: vless
+  server: 172.64.32.103
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -1030,89 +604,51 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 77 - xiaohe
+- name: 🌐 其他地区 (Other) 45 - xiaohe
   type: vless
-  server: 104.21.67.181
+  server: 172.67.220.153
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-M16.ChIAnG-MAi2031.kdns.Fr
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
+- name: 🌐 其他地区 (Other) 46 - xiaohe
+  type: vless
+  server: 104.21.41.227
   port: 443
   uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 7-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+  servername: 7-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
   network: ws
   ws-opts:
     path: /8qMLgNapWf6SBxo8fhQlVPYO
     headers:
-      Host: 7-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
-- name: 🌐 其他地区 (Other) 78 - xiaohe
+      Host: 7-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+- name: 🌐 其他地区 (Other) 47 - xiaohe
   type: vless
-  server: 172.64.52.6
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 79 - xiaohe
-  type: vless
-  server: 104.21.70.21
+  server: 104.21.31.110
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: 8-M19.SOUth-aFrIcA.cCWU.cC
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 80 - xiaohe
+      Host: 8-m19.SouTh-aFRIca.cCWU.Cc
+- name: 🌐 其他地区 (Other) 48 - xiaohe
   type: vless
-  server: 104.18.34.14
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 81 - xiaohe
-  type: vless
-  server: 172.64.53.55
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 82 - xiaohe
-  type: vless
-  server: 162.159.39.218
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 83 - xiaohe
-  type: vless
-  server: 104.18.39.218
+  server: 172.64.42.85
   port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -1123,6 +659,20 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 49 - xiaohe
+  type: vless
+  server: 172.67.140.11
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-m19.sudAN-pArk.CcWU.cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 2-M19.SUDAn-pArk.CCWu.cC
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1177,40 +727,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 47 - xiaohe
   - 🌐 其他地区 (Other) 48 - xiaohe
   - 🌐 其他地区 (Other) 49 - xiaohe
-  - 🌐 其他地区 (Other) 50 - xiaohe
-  - 🌐 其他地区 (Other) 51 - xiaohe
-  - 🌐 其他地区 (Other) 52 - xiaohe
-  - 🌐 其他地区 (Other) 53 - xiaohe
-  - 🌐 其他地区 (Other) 54 - xiaohe
-  - 🌐 其他地区 (Other) 55 - xiaohe
-  - 🌐 其他地区 (Other) 56 - xiaohe
-  - 🌐 其他地区 (Other) 57 - xiaohe
-  - 🌐 其他地区 (Other) 58 - xiaohe
-  - 🌐 其他地区 (Other) 59 - xiaohe
-  - 🌐 其他地区 (Other) 60 - xiaohe
-  - 🌐 其他地区 (Other) 61 - xiaohe
-  - 🌐 其他地区 (Other) 62 - xiaohe
-  - 🌐 其他地区 (Other) 63 - xiaohe
-  - 🌐 其他地区 (Other) 64 - xiaohe
-  - 🌐 其他地区 (Other) 65 - xiaohe
-  - 🌐 其他地区 (Other) 66 - xiaohe
-  - 🌐 其他地区 (Other) 67 - xiaohe
-  - 🌐 其他地区 (Other) 68 - xiaohe
-  - 🌐 其他地区 (Other) 69 - xiaohe
-  - 🌐 其他地区 (Other) 70 - xiaohe
-  - 🌐 其他地区 (Other) 71 - xiaohe
-  - 🌐 其他地区 (Other) 72 - xiaohe
-  - 🌐 其他地区 (Other) 73 - xiaohe
-  - 🌐 其他地区 (Other) 74 - xiaohe
-  - 🌐 其他地区 (Other) 75 - xiaohe
-  - 🌐 其他地区 (Other) 76 - xiaohe
-  - 🌐 其他地区 (Other) 77 - xiaohe
-  - 🌐 其他地区 (Other) 78 - xiaohe
-  - 🌐 其他地区 (Other) 79 - xiaohe
-  - 🌐 其他地区 (Other) 80 - xiaohe
-  - 🌐 其他地区 (Other) 81 - xiaohe
-  - 🌐 其他地区 (Other) 82 - xiaohe
-  - 🌐 其他地区 (Other) 83 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1265,39 +781,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 47 - xiaohe
   - 🌐 其他地区 (Other) 48 - xiaohe
   - 🌐 其他地区 (Other) 49 - xiaohe
-  - 🌐 其他地区 (Other) 50 - xiaohe
-  - 🌐 其他地区 (Other) 51 - xiaohe
-  - 🌐 其他地区 (Other) 52 - xiaohe
-  - 🌐 其他地区 (Other) 53 - xiaohe
-  - 🌐 其他地区 (Other) 54 - xiaohe
-  - 🌐 其他地区 (Other) 55 - xiaohe
-  - 🌐 其他地区 (Other) 56 - xiaohe
-  - 🌐 其他地区 (Other) 57 - xiaohe
-  - 🌐 其他地区 (Other) 58 - xiaohe
-  - 🌐 其他地区 (Other) 59 - xiaohe
-  - 🌐 其他地区 (Other) 60 - xiaohe
-  - 🌐 其他地区 (Other) 61 - xiaohe
-  - 🌐 其他地区 (Other) 62 - xiaohe
-  - 🌐 其他地区 (Other) 63 - xiaohe
-  - 🌐 其他地区 (Other) 64 - xiaohe
-  - 🌐 其他地区 (Other) 65 - xiaohe
-  - 🌐 其他地区 (Other) 66 - xiaohe
-  - 🌐 其他地区 (Other) 67 - xiaohe
-  - 🌐 其他地区 (Other) 68 - xiaohe
-  - 🌐 其他地区 (Other) 69 - xiaohe
-  - 🌐 其他地区 (Other) 70 - xiaohe
-  - 🌐 其他地区 (Other) 71 - xiaohe
-  - 🌐 其他地区 (Other) 72 - xiaohe
-  - 🌐 其他地区 (Other) 73 - xiaohe
-  - 🌐 其他地区 (Other) 74 - xiaohe
-  - 🌐 其他地区 (Other) 75 - xiaohe
-  - 🌐 其他地区 (Other) 76 - xiaohe
-  - 🌐 其他地区 (Other) 77 - xiaohe
-  - 🌐 其他地区 (Other) 78 - xiaohe
-  - 🌐 其他地区 (Other) 79 - xiaohe
-  - 🌐 其他地区 (Other) 80 - xiaohe
-  - 🌐 其他地区 (Other) 81 - xiaohe
-  - 🌐 其他地区 (Other) 82 - xiaohe
-  - 🌐 其他地区 (Other) 83 - xiaohe
 rules:
 - MATCH,PROXIES
