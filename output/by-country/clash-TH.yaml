@@ -4,29 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 SE 01 - xiaohe
+- name: 🇹🇭 TH 01 - xiaohe
   type: vless
-  server: 34.51.240.236
-  port: 443
-  uuid: 788950f8-dbd9-4234-a42c-a7204665ce9f
+  server: 103.86.49.57
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: SOvacyM6CABhBHYdOHvhXbkNLHJBHuAkoJj2Z13xKlE
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: aIs.SpEeDtEsT.nEt
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 SE 01 - xiaohe
+  - 🇹🇭 TH 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 SE 01 - xiaohe
+  - 🇹🇭 TH 01 - xiaohe
 rules:
 - MATCH,PROXIES
